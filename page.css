@@ -1,24 +1,62 @@
 
-.container {
-    display: flex;
-    justify-content: space-between;
+/* Estilos para el cuerpo de la página */
+body {
+    background-image: url('Background.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Estilos para el cuadro Personal-Data */
 .Personal-Data {
-    flex: 1;
-    border: 2px solid #ccc;
-    padding: 10px;
-    background-color: #f5f5f5;
-    margin-right: 10px;
-    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 35%;
+    height: 100%;
+    border: none;
+    border-right: 10px solid #56688C;
+    padding: 12px;
+    background-color: #000000d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Agregar sombreado */
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5); /* Horizontal, Vertical, Desenfoque, Color */
+}
+
+
+
+.Profile {
+    position: absolute;
+    left: 20;
+    bottom: 20;
+    top: 60px;
+    width: 50%; /* Ancho del cuadro al 100% de su contenedor */
+    height: 50%;
+    border: 0px solid #ccc;
+    padding: 12px;
+    background-color: #00000000;
+    display: flex; /* Usar flexbox para centrar el contenido */
+    flex-direction: column;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
 }
 
 .Sport-Data{
-    flex: 1;
-    border: 2px solid #ccc;
-    padding: 10px;
-    background-color: #f5f5f5;
-    margin-left: 10px;
-    margin-bottom: 20px;
+    position: absolute;
+    width: 450px; 
+    height: 400px;
+    top: 50px; /* Coordenada vertical desde arriba */
+    left: 700px; /* Coordenada horizontal desde la izquierda */
+    border: 6px solid #56688C;
+    padding: 60px;
+    background-color: #000000d8;
 }
 
