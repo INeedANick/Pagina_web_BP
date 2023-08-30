@@ -1,7 +1,7 @@
 
 /* Estilos para el cuerpo de la página */
 body {
-    background-image: url('Background.jpg'); /* Ruta de la imagen de fondo */
+    background-image: url('Imagenes/Background.jpg'); /* Ruta de la imagen de fondo */
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
